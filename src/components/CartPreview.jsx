@@ -28,7 +28,7 @@ const CartPreview = () => {
         {items.map((product) => {
           return (
             <li className="cart-item" key={product.name}>
-              <img className="product-image" src={product.image} alt={} />
+              <img className="product-image" src={product.image} alt="" />
               <div className="product-info">
                 <p className="product-name">{product.name}</p>
                 <p className="product-price">{product.price}</p>
