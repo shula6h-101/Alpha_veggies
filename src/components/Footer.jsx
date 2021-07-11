@@ -6,21 +6,22 @@ const Footer = () => {
     <footer>
       <p className="footer-links">
         <a
+          rel="noreferrer"
           href="https://github.com/sivadass/react-shopping-cart"
           target="_blank"
         >
           View Source on Github
         </a>
         <span> / </span>
-        <a href="mailto:contact@sivadass.in" target="_blank">
+        <a rel="noreferrer" href="mailto:contact@sivadass.in" target="_blank">
           Need any help?
         </a>
         <span> / </span>
-        <a href="https://twitter.com/NSivadass" target="_blank">
+        <a rel="noreferrer" href="https://twitter.com/NSivadass" target="_blank">
           Say Hi on Twitter
         </a>
         <span> / </span>
-        <a href="https://sivadass.in" target="_blank">
+        <a rel="noreferrer" href="https://sivadass.in" target="_blank">
           Read My Blog
         </a>
       </p>
